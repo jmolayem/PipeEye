@@ -1,0 +1,9 @@
+//server only variables go here...API keys for stripe, intercom, etc
+
+{
+	"public": {
+		"ga" : {
+			"account": "UA-63015085-1"
+		}
+	},
+}

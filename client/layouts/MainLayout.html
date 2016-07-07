@@ -1,0 +1,14 @@
+<template name="MainLayout">
+	<header>
+		<h1>My Pipeline Helper</h1>
+			{{>loginButtons}}
+	</header>
+	{{> SideNav}}
+	<main class="main-layout">
+		{{> Template.dynamic template=main}}
+	</main>
+</template>
+
+<template name="Test">
+	hello!
+</template>
